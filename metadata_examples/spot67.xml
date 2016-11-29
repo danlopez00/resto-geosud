@@ -1,0 +1,507 @@
+<csw:GetRecordByIdResponse xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:sml1="http://www.opengis.net/sensorML/1.0" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:swe1="http://www.opengis.net/swe/1.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:icism="urn:us:gov:ic:ism:v2" xmlns:gml="http://www.opengis.net/gml" xmlns:ns11="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:fra="http://www.cnig.gouv.fr/2005/fra" xmlns:ins="http://www.inspire.org" xmlns:ows="http://www.opengis.net/ows" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:ns23="http://www.opengis.net/ows/1.1" xmlns:cat="http://www.opengis.net/cat/csw" xmlns:dc2="http://www.purl.org/dc/elements/1.1/" xmlns:dct2="http://www.purl.org/dc/terms/" xmlns:ns27="http://www.opengis.net/gml/">
+  <gmd:MD_Metadata xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ns10="http://www.opengis.net/gml">
+    <gmd:fileIdentifier>
+      <gco:CharacterString>MD_S7X_2016081237781809CP</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+      <gmd:LanguageCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="fra" codeSpace="fra">français</gmd:LanguageCode>
+    </gmd:language>
+    <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">UTF-8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:parentIdentifier>
+      <gco:CharacterString>SPOT6_2016_FRANCE-ORTHO_IGN-MS</gco:CharacterString>
+    </gmd:parentIdentifier>
+    <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="fra">Jeu de données</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:hierarchyLevelName>
+      <gco:CharacterString>image</gco:CharacterString>
+    </gmd:hierarchyLevelName>
+    <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:organisationName>
+          <gco:CharacterString>Irstea</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:address>
+              <gmd:CI_Address>
+<gmd:country>
+  <gco:CharacterString>France</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+  <gco:CharacterString>admin@equipex-geosud.fr</gco:CharacterString>
+</gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="fra">Distributeur</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+      <gco:DateTime>2016-10-19T16:45:31.988+02:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:spatialRepresentationInfo>
+      <gmd:MD_Georectified>
+        <gmd:numberOfDimensions>
+          <gco:Integer>2</gco:Integer>
+        </gmd:numberOfDimensions>
+        <gmd:axisDimensionProperties>
+          <gmd:MD_Dimension>
+            <gmd:dimensionName>
+              <gmd:MD_DimensionNameTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+            </gmd:dimensionName>
+            <gmd:dimensionSize>
+              <gco:Integer>10299</gco:Integer>
+            </gmd:dimensionSize>
+          </gmd:MD_Dimension>
+        </gmd:axisDimensionProperties>
+        <gmd:axisDimensionProperties>
+          <gmd:MD_Dimension>
+            <gmd:dimensionName>
+              <gmd:MD_DimensionNameTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+            </gmd:dimensionName>
+            <gmd:dimensionSize>
+              <gco:Integer>9999</gco:Integer>
+            </gmd:dimensionSize>
+          </gmd:MD_Dimension>
+        </gmd:axisDimensionProperties>
+        <gmd:cellGeometry>
+          <gmd:MD_CellGeometryCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area" codeSpace="fra">Area</gmd:MD_CellGeometryCode>
+        </gmd:cellGeometry>
+        <gmd:transformationParameterAvailability>
+          <gco:Boolean>false</gco:Boolean>
+        </gmd:transformationParameterAvailability>
+        <gmd:checkPointAvailability>
+          <gco:Boolean>false</gco:Boolean>
+        </gmd:checkPointAvailability>
+        <gmd:pointInPixel>
+          <gmd:MD_PixelOrientationCode>upperLeft</gmd:MD_PixelOrientationCode>
+        </gmd:pointInPixel>
+      </gmd:MD_Georectified>
+    </gmd:spatialRepresentationInfo>
+    <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:code>
+              <gco:CharacterString>urn:ogc:def:crs:EPSG::2154</gco:CharacterString>
+            </gmd:code>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+        <gmd:citation>
+          <gmd:CI_Citation>
+            <gmd:title>
+              <gco:CharacterString>2016-08-12_10:29:41.2_SPOT7_ORTHO_MS</gco:CharacterString>
+            </gmd:title>
+            <gmd:date>
+              <gmd:CI_Date>
+<gmd:date>
+  <gco:DateTime>2016-08-12T12:29:41.002+02:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+  <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="fra">Création</gmd:CI_DateTypeCode>
+</gmd:dateType>
+              </gmd:CI_Date>
+            </gmd:date>
+            <gmd:identifier>
+              <gmd:MD_Identifier>
+<gmd:code>
+  <gco:CharacterString>S7X_2016081237781809CP</gco:CharacterString>
+</gmd:code>
+              </gmd:MD_Identifier>
+            </gmd:identifier>
+          </gmd:CI_Citation>
+        </gmd:citation>
+        <gmd:abstract>
+          <gco:CharacterString>Couverture France 2016, ortho IGN, mode Multispectrale</gco:CharacterString>
+        </gmd:abstract>
+        <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Geosud</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+<gmd:address>
+  <gmd:CI_Address>
+    <gmd:country>
+      <gco:CharacterString>France</gco:CharacterString>
+    </gmd:country>
+    <gmd:electronicMailAddress>
+      <gco:CharacterString>admin@equipex-geosud.fr</gco:CharacterString>
+    </gmd:electronicMailAddress>
+  </gmd:CI_Address>
+</gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="fra">Distributeur</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+        <gmd:graphicOverview>
+          <gmd:MD_BrowseGraphic>
+            <gmd:fileName>
+              <gmx:FileName src="http://ids.equipex-geosud.fr/constellation/rest/quicklook/SPOT6_2016_FRANCE-ORTHO_IGN-MS/MD_S7X_2016081237781809CP.png">MD_S7X_2016081237781809CP.png</gmx:FileName>
+            </gmd:fileName>
+            <gmd:fileDescription>
+              <gco:CharacterString>quicklook</gco:CharacterString>
+            </gmd:fileDescription>
+            <gmd:fileType>
+              <gmx:MimeFileType type="image/png">image/png</gmx:MimeFileType>
+            </gmd:fileType>
+          </gmd:MD_BrowseGraphic>
+        </gmd:graphicOverview>
+        <gmd:descriptiveKeywords>
+          <gmd:MD_Keywords>
+            <gmd:keyword>
+              <gco:CharacterString>Orthoimagery</gco:CharacterString>
+            </gmd:keyword>
+            <gmd:type>
+              <gmd:MD_KeywordTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="discipline" codeSpace="fra">Discipline</gmd:MD_KeywordTypeCode>
+            </gmd:type>
+            <gmd:thesaurusName>
+              <gmd:CI_Citation>
+<gmd:title>
+  <gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+  <gmd:CI_Date>
+    <gmd:date>
+      <gco:Date>2008-06-01</gco:Date>
+    </gmd:date>
+    <gmd:dateType>
+      <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="fra">Publication</gmd:CI_DateTypeCode>
+    </gmd:dateType>
+  </gmd:CI_Date>
+</gmd:date>
+              </gmd:CI_Citation>
+            </gmd:thesaurusName>
+          </gmd:MD_Keywords>
+        </gmd:descriptiveKeywords>
+        <gmd:resourceConstraints>
+          <gmd:MD_LegalConstraints>
+            <gmd:useLimitation>
+              <gco:CharacterString>http://equipex-geosud.fr/web/guest/37</gco:CharacterString>
+            </gmd:useLimitation>
+            <gmd:accessConstraints>
+              <gmd:MD_RestrictionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="fra">Licence</gmd:MD_RestrictionCode>
+            </gmd:accessConstraints>
+            <gmd:useConstraints>
+              <gmd:MD_RestrictionCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license" codeSpace="fra">Licence</gmd:MD_RestrictionCode>
+            </gmd:useConstraints>
+            <gmd:otherConstraints>
+              <gco:CharacterString>L'acquisition, la production et la diffusion du jeu de données a bénéficié d'une aide de l’Etat gérée par l'Agence Nationale de la Recherche au titre du programme Investissement d’avenir pour le projet GEOSUD portant la référence ANR-10-EQPX-20</gco:CharacterString>
+            </gmd:otherConstraints>
+          </gmd:MD_LegalConstraints>
+        </gmd:resourceConstraints>
+        <gmd:spatialResolution>
+          <gmd:MD_Resolution>
+            <gmd:distance>
+              <gco:Distance uom="http://schemas.opengis.net/iso/19139/20070417/resources/uom/gmxUom.xml#xpointer(//*[@gml:id='m'])">6.0</gco:Distance>
+            </gmd:distance>
+          </gmd:MD_Resolution>
+        </gmd:spatialResolution>
+        <gmd:language>
+          <gmd:LanguageCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="fra" codeSpace="fra">français</gmd:LanguageCode>
+        </gmd:language>
+        <gmd:topicCategory>
+          <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+        </gmd:topicCategory>
+        <gmd:extent>
+          <gmd:EX_Extent>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicBoundingBox>
+<gmd:extentTypeCode>
+  <gco:Boolean>true</gco:Boolean>
+</gmd:extentTypeCode>
+<gmd:westBoundLongitude>
+  <gco:Decimal>0.222452992532</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+  <gco:Decimal>1.04129195268</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+  <gco:Decimal>47.0616166523</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+  <gco:Decimal>47.6338214871</gco:Decimal>
+</gmd:northBoundLatitude>
+              </gmd:EX_GeographicBoundingBox>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+  <gmd:RS_Identifier>
+    <gmd:code>
+      <gco:CharacterString>Europe</gco:CharacterString>
+    </gmd:code>
+    <gmd:codeSpace>
+      <gco:CharacterString>http://xml.insee.fr/schema/cog.xsd#xpointer(//*[@name='CodeContinentType'])</gco:CharacterString>
+    </gmd:codeSpace>
+  </gmd:RS_Identifier>
+</gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+  <gmd:RS_Identifier>
+    <gmd:code>
+      <gco:CharacterString>France</gco:CharacterString>
+    </gmd:code>
+    <gmd:codeSpace>
+      <gco:CharacterString>http://xml.insee.fr/schema/cog.xsd#xpointer(//*[@name='CodePaysType'])</gco:CharacterString>
+    </gmd:codeSpace>
+  </gmd:RS_Identifier>
+</gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+  <gmd:RS_Identifier>
+    <gmd:code>
+      <gco:CharacterString>POITOU-CHARENTES</gco:CharacterString>
+    </gmd:code>
+    <gmd:codeSpace>
+      <gco:CharacterString>http://xml.insee.fr/schema/cog.xsd#xpointer(//*[@name='CodeRegionType'])</gco:CharacterString>
+    </gmd:codeSpace>
+  </gmd:RS_Identifier>
+</gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+  <gmd:RS_Identifier>
+    <gmd:code>
+      <gco:CharacterString>CENTRE</gco:CharacterString>
+    </gmd:code>
+    <gmd:codeSpace>
+      <gco:CharacterString>http://xml.insee.fr/schema/cog.xsd#xpointer(//*[@name='CodeRegionType'])</gco:CharacterString>
+    </gmd:codeSpace>
+  </gmd:RS_Identifier>
+</gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:geographicElement>
+              <gmd:EX_GeographicDescription>
+<gmd:geographicIdentifier>
+  <gmd:RS_Identifier>
+    <gmd:code>
+      <gco:CharacterString>INDRE-ET-LOIRE</gco:CharacterString>
+    </gmd:code>
+    <gmd:codeSpace>
+      <gco:CharacterString>http://xml.insee.fr/schema/cog.xsd#xpointer(//*[@name='CodeDepartementType'])</gco:CharacterString>
+    </gmd:codeSpace>
+  </gmd:RS_Identifier>
+</gmd:geographicIdentifier>
+              </gmd:EX_GeographicDescription>
+            </gmd:geographicElement>
+            <gmd:temporalElement>
+              <gmd:EX_TemporalExtent>
+<gmd:extent>
+  <gml:TimePeriod gml:id="time-30">
+    <gml:beginPosition>2016-08-12T12:29:41.002+02:00</gml:beginPosition>
+    <gml:endPosition>2016-08-12T12:29:41.002+02:00</gml:endPosition>
+  </gml:TimePeriod>
+</gmd:extent>
+              </gmd:EX_TemporalExtent>
+            </gmd:temporalElement>
+          </gmd:EX_Extent>
+        </gmd:extent>
+      </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+      <gmd:MD_ImageDescription>
+        <gmd:attributeDescription>
+          <gco:RecordType/>
+        </gmd:attributeDescription>
+        <gmd:contentType>
+          <gmd:MD_CoverageContentTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image" codeSpace="fra">Image</gmd:MD_CoverageContentTypeCode>
+        </gmd:contentType>
+        <gmd:processingLevelCode>
+          <gmd:MD_Identifier>
+            <gmd:code>
+              <gco:CharacterString>ORTHO</gco:CharacterString>
+            </gmd:code>
+          </gmd:MD_Identifier>
+        </gmd:processingLevelCode>
+      </gmd:MD_ImageDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+        <gmd:distributionFormat>
+          <gmd:MD_Format>
+            <gmd:name>
+              <gco:CharacterString>image/tiff</gco:CharacterString>
+            </gmd:name>
+            <gmd:version>
+              <gco:CharacterString>1.0</gco:CharacterString>
+            </gmd:version>
+          </gmd:MD_Format>
+        </gmd:distributionFormat>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+<gmd:linkage>
+  <gmd:URL>http://ids.equipex-geosud.fr/constellation/rest/secured/download/data/SPOT6_2016_FRANCE-ORTHO_IGN-MS/MD_S7X_2016081237781809CP.tar.gz</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+  <gco:CharacterString>WWW :DOWNLOAD-1.0-http-download</gco:CharacterString>
+</gmd:protocol>
+<gmd:description>
+  <gco:CharacterString>download</gco:CharacterString>
+</gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+<gmd:linkage>
+  <gmd:URL>http://ids.equipex-geosud.fr/constellation/WS/wms/WMS</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+  <gco:CharacterString>OGC :WMS :-1.1.1-http-get-map</gco:CharacterString>
+</gmd:protocol>
+<gmd:name>
+  <gco:CharacterString>SPOT6_2016_FRANCE-ORTHO_IGN-MS</gco:CharacterString>
+</gmd:name>
+<gmd:description>
+  <gco:CharacterString>vizualisation</gco:CharacterString>
+</gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+        <gmd:transferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+<gmd:linkage>
+  <gmd:URL>http://ids.equipex-geosud.fr/constellation/WS/wmts/WMTS</gmd:URL>
+</gmd:linkage>
+<gmd:protocol>
+  <gco:CharacterString>OGC:WMTS-1.0.0-http-get-tile</gco:CharacterString>
+</gmd:protocol>
+<gmd:name>
+  <gco:CharacterString>SPOT6_2016_FRANCE-ORTHO_IGN-MS-styled-Spot6_RVB</gco:CharacterString>
+</gmd:name>
+<gmd:description>
+  <gco:CharacterString>vizualisation</gco:CharacterString>
+</gmd:description>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:transferOptions>
+      </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+        <gmd:scope>
+          <gmd:DQ_Scope>
+            <gmd:level>
+              <gmd:MD_ScopeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="fra">Jeu de données</gmd:MD_ScopeCode>
+            </gmd:level>
+          </gmd:DQ_Scope>
+        </gmd:scope>
+        <gmd:report>
+          <gmd:DQ_DomainConsistency>
+            <gmd:result>
+              <gmd:DQ_ConformanceResult>
+<gmd:specification>
+  <gmd:CI_Citation>
+    <gmd:title>
+      <gco:CharacterString>INSPIRE Data Specification for the spatial data theme Orthoimagery</gco:CharacterString>
+    </gmd:title>
+    <gmd:date>
+      <gmd:CI_Date>
+        <gmd:date>
+          <gco:DateTime>2013-12-10T01:00:00+02:00</gco:DateTime>
+        </gmd:date>
+        <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="fra">Publication</gmd:CI_DateTypeCode>
+        </gmd:dateType>
+      </gmd:CI_Date>
+    </gmd:date>
+    <gmd:edition>
+      <gco:CharacterString>3.0rc3</gco:CharacterString>
+    </gmd:edition>
+  </gmd:CI_Citation>
+</gmd:specification>
+<gmd:explanation>
+  <gco:CharacterString>See the referenced specification</gco:CharacterString>
+</gmd:explanation>
+<gmd:pass>
+  <gco:Boolean>false</gco:Boolean>
+</gmd:pass>
+              </gmd:DQ_ConformanceResult>
+            </gmd:result>
+          </gmd:DQ_DomainConsistency>
+        </gmd:report>
+        <gmd:lineage>
+          <gmd:LI_Lineage>
+            <gmd:processStep>
+              <gmd:LI_ProcessStep>
+<gmd:description>
+  <gco:CharacterString>SPOT</gco:CharacterString>
+</gmd:description>
+<gmd:dateTime>
+  <gco:DateTime>2016-08-25T11:23:34+02:00</gco:DateTime>
+</gmd:dateTime>
+<gmd:processor>
+  <gmd:CI_ResponsibleParty>
+    <gmd:organisationName>
+      <gco:CharacterString>"SRD GEOSUD / IRD, Irstea, IGN"</gco:CharacterString>
+    </gmd:organisationName>
+    <gmd:role>
+      <gmd:CI_RoleCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="fra">Commanditaire</gmd:CI_RoleCode>
+    </gmd:role>
+  </gmd:CI_ResponsibleParty>
+</gmd:processor>
+              </gmd:LI_ProcessStep>
+            </gmd:processStep>
+            <gmd:source>
+              <gmd:LI_Source>
+<gmd:description>
+  <gco:CharacterString>Ground_Source : One square degre MOSAIC post at 1/12th of the DTED2 DEM sampling, ID : R3D_OR_N47E001Les informations sur la source peuvent être trouvé dans le fichier suivant : LINEAGE/GROUND_R3D_OR_N47E001_DIM.XML</gco:CharacterString>
+</gmd:description>
+<gmd:sourceCitation>
+  <gmd:CI_Citation>
+    <gmd:title>
+      <gco:CharacterString>R3D_OR_N47E001</gco:CharacterString>
+    </gmd:title>
+    <gmd:date>
+      <gmd:CI_Date>
+        <gmd:dateType>
+          <gmd:CI_DateTypeCode codeList="http://schemas.opengis.net/iso/19139/20070417/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="fra">Création</gmd:CI_DateTypeCode>
+        </gmd:dateType>
+      </gmd:CI_Date>
+    </gmd:date>
+  </gmd:CI_Citation>
+</gmd:sourceCitation>
+              </gmd:LI_Source>
+            </gmd:source>
+          </gmd:LI_Lineage>
+        </gmd:lineage>
+      </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataMaintenance>
+      <gmd:MD_MaintenanceInformation/>
+    </gmd:metadataMaintenance>
+  </gmd:MD_Metadata>
+</csw:GetRecordByIdResponse>

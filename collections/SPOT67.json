@@ -1,0 +1,32 @@
+{
+    "name": "SPOT67",
+    "model": "RestoModel_SPOT67",
+    "status": "public",
+    "licenseId": "unlicensed",
+    "rights":{
+        "download":1,
+        "visualize":1
+    },
+    "osDescription": {
+        "en": {
+            "ShortName": "SPOT",
+            "LongName": "Optical satellite images (SPOT 6-7)",
+            "Description": "SPOT 6-7 images acquired in the frame of Geosud project",
+            "Tags": "spot geosud",
+            "Developer": "Equipex Geosud",
+            "Contact": "admin@equipex-geosud.fr",
+            "Query": "Images%20on%20Montpellier%20acquired%20in%202016",
+            "Attribution": "Copyright 2016, Equipex Geosud - All Rights Reserved"
+        },
+        "fr": {
+            "ShortName": "SPOT",
+            "LongName": "Images satellite optiques (SPOT 6-7)",
+            "Description": "Images SPOT 6-7 acquises dans le cadre du projet Geosud",
+            "Tags": "spot geosud",
+            "Developer": "Equipex Geosud",
+            "Contact": "admin@equipex-geosud.fr",
+            "Query": "Images%20acquises%20sur%20Montpellier%20en%202016",
+            "Attribution": "Copyright 2016, Equipex Geosud - All Rights Reserved"
+        }
+    }
+}
